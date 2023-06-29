@@ -1,0 +1,13 @@
+CREATE DATABASE dep10_sms;
+
+CREATE TABLE IF NOT EXISTS student(
+    id VARCHAR(50) NOT NULL PRIMARY KEY,
+    name VARCHAR(150) NOT NULL,
+    address VARCHAR(250) NOT NULL
+    );
+    
+CREATE TABLE IF NOT EXISTS course(
+    id VARCHAR(50) NOT NULL PRIMARY KEY,
+    description VARCHAR(150) NOT NULL,
+    duration INT NOT NULL
+    );
